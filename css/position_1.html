@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        html{border: 1px solid gray;}
+        div{
+            border: 5px solid tomato;
+            margin: 10px;
+        }
+        #me{
+            position: relative;
+            left: 100px;
+            top: 100px;
+                /* 우선순위 left > right
+                       top > bottom */
+        }
+    </style>
+</head>
+<body>
+    <div id="other">other</div>
+    <div id="parent">parent</div>
+    <div id="me">me</div>
+</body>
+</html>
