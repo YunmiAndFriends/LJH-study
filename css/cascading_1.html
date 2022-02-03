@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        li{color: red !important;}
+            /* 가장 포괄적인 태그 */
+        #idsel{color: blue;}
+         /* 특정한 태그에만 아이디값(중복 x)을 줄 수 있으므로 더 구체적 */
+        .classsel{color: green;}
+         /* 원하는 태그들을 여러개 선택 가능하므로 더 정교 */
+    </style>
+</head>
+<body>
+    <ul>
+        <li>html</li>
+        <li id="idsel" class="classsel" style="color: powderblue;">css</li>
+        <li>javascript</li>
+    </ul>
+    <h1>우선 순위</h1>
+    <ol>
+        <li>1. style attribute</li>
+        <li>2. id selector</li>
+        <li>3. class selector</li>
+        <li>4. tag selector</li>
+    </ol>
+</body>
+</html>
